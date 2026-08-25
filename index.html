@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="nutriADN Avanzada: prueba genetica nutricional con consulta especializada y plan personalizado basado en tu ADN.">
+  <title>nutriADN Avanzada | Nutricion basada en tu ADN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <!-- Navegación fija; en móvil el menú se controla desde script.js. -->
+  <header class="site-header" data-header>
+    <nav class="nav" aria-label="Navegacion principal">
+      <a class="brand" href="#top" aria-label="nutriADN inicio">
+        <img src="assets/img/logo.jpeg" alt="nutriADN">
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Abrir menu</span>
+      </button>
+      <div class="nav-menu" id="nav-menu" data-nav-menu>
+        <a href="#proceso">Proceso</a>
+        <a href="#genetica">Tu reporte</a>
+        <a href="#planes">Planes</a>
+        <a href="#faq">FAQ</a>
+        <a class="nav-cta" href="#contacto">Comenzar</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- La propuesta de valor y los CTA principales aparecen antes del primer scroll. -->
+    <section class="hero" id="top">
+      <picture>
+        <source media="(max-width: 720px)"
+          srcset="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=900&q=82">
+        <img class="hero-bg"
+          src="https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?auto=format&fit=crop&w=1800&q=84"
+          alt="Especialista revisando informacion de salud personalizada">
+      </picture>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Analisis genetico + plan nutricional</p>
+        <h1>Las dietas genéricas no funcionan para todos.</h1>
+        <p class="hero-lead">Con nutriADN Avanzada descubre como responde tu cuerpo a alimentos, suplementos, ejercicio
+          y descanso para crear una estrategia basada en tu ADN.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#planes">Hacer mi prueba</a>
+          <a class="button button-secondary" href="#proceso">Conocer el proceso</a>
+        </div>
+        <div class="hero-proof" aria-label="Diferenciales de nutriADN Avanzada">
+          <span><strong>129</strong> genes analizados</span>
+          <span><strong>Saliva</strong> muestra sencilla</span>
+          <span><strong>Consulta</strong> con especialista</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro section-band">
+      <div class="container intro-grid">
+        <div>
+          <p class="section-kicker">Deja la prueba y error</p>
+          <h2>Tu nutricion, personalizada por tu ADN.</h2>
+        </div>
+        <p>nutriADN Avanzada convierte informacion genetica compleja en decisiones claras: que comer, que suplementar,
+          como entrenar y que habitos priorizar segun tu biologia.</p>
+      </div>
+    </section>
+
+    <section class="section" id="proceso">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Proceso guiado</p>
+          <h2>Como funciona en 4 pasos</h2>
+          <p>Educacion primero, conversion despues: cada etapa elimina dudas antes de pedir una decision.</p>
+        </div>
+        <div class="steps">
+          <article class="step-card reveal">
+            <span class="step-number">01</span>
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M8 3v6.5a5 5 0 1 0 8 0V3M7 3h10M8.8 14h6.4" />
+              </svg>
+            </div>
+            <h3>Solicita tu prueba</h3>
+            <p>Elige programa o test individual. Puedes recibir tu kit en casa o acudir a una clinica nutriADN.</p>
+            <small>5 min para ordenar</small>
+          </article>
+          <article class="step-card reveal">
+            <span class="step-number">02</span>
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M12 3s5 5.3 5 10a5 5 0 0 1-10 0c0-4.7 5-10 5-10Z" />
+                <path d="M9.5 14.2c.5 1.3 1.3 1.8 2.5 1.8" />
+              </svg>
+            </div>
+            <h3>Toma tu muestra</h3>
+            <p>Solo necesitas una muestra de saliva. El proceso es rapido, claro y sin procedimientos invasivos.</p>
+            <small>10 min de muestra</small>
+          </article>
+          <article class="step-card reveal">
+            <span class="step-number">03</span>
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M6 3h9l3 3v15H6zM15 3v4h4M9 11h6M9 15h6M9 19h4" />
+              </svg>
+            </div>
+            <h3>Recibe tu reporte</h3>
+            <p>Obtienes informacion sobre metabolismo, macronutrientes, vitaminas, ejercicio, descanso y estilo de vida.
+            </p>
+            <small>PDF accionable</small>
+          </article>
+          <article class="step-card reveal">
+            <span class="step-number">04</span>
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M7 3h10v3H7zM5 5h14v16H5zM8 11l2 2 5-5M8 17h8" />
+              </svg>
+            </div>
+            <h3>Convierte datos en plan</h3>
+            <p>Una nutriologa funcional interpreta tus resultados y crea una estrategia personalizada para tus
+              objetivos.</p>
+            <small>Consulta especializada</small>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="beneficios">
+      <div class="container">
+        <div class="section-heading split">
+          <div>
+            <p class="section-kicker">Beneficios</p>
+            <h2>Precision para tomar mejores decisiones de salud</h2>
+          </div>
+          <a class="text-link" href="#contacto">Reservar consulta</a>
+        </div>
+        <div class="benefit-grid">
+          <article class="benefit reveal">
+            <span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24">
+                <path d="M13 2c1 4-3 5-3 9 0 2 1 3 2 4-3 0-5-2-5-5-2 2-3 4-3 6a8 8 0 0 0 16 0c0-5-3-9-7-14Z" />
+              </svg></span>
+            <h3>Metabolismo sin suposiciones</h3>
+            <p>Conoce como puedes responder a grasas, carbohidratos, cafeina, alcohol, gluten y lactosa.</p>
+          </article>
+          <article class="benefit reveal">
+            <span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24">
+                <path d="m9 4 11 11a3.5 3.5 0 0 1-5 5L4 9a3.5 3.5 0 0 1 5-5ZM7 12l5-5" />
+              </svg></span>
+            <h3>Vitaminas y minerales</h3>
+            <p>Identifica necesidades geneticas relacionadas con B6, B9, B12, vitamina D, hierro, zinc y mas.</p>
+          </article>
+          <article class="benefit reveal">
+            <span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24">
+                <path d="M3 9v6M6 7v10M18 7v10M21 9v6M6 12h12" />
+              </svg></span>
+            <h3>Entrenamiento alineado</h3>
+            <p>Recibe recomendaciones sobre fuerza, capacidad aerobica, recuperacion y riesgo de lesion.</p>
+          </article>
+          <article class="benefit reveal">
+            <span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24">
+                <path d="M20 15.5A8.5 8.5 0 0 1 8.5 4 8.5 8.5 0 1 0 20 15.5Z" />
+                <path d="M17 4v3M15.5 5.5h3" />
+              </svg></span>
+            <h3>Estilo de vida medible</h3>
+            <p>Integra sueno, inflamacion, envejecimiento biologico y respuesta al estres en tu estrategia.</p>
+          </article>
+          <article class="benefit reveal">
+            <span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24">
+                <path
+                  d="M20.8 5.7a5.5 5.5 0 0 0-7.8 0L12 6.8l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 22l8.8-8.5a5.5 5.5 0 0 0 0-7.8Z" />
+                <path d="M4 13h4l2-4 3 8 2-4h5" />
+              </svg></span>
+            <h3>Plan con contexto clinico</h3>
+            <p>Tu reporte se interpreta con objetivos, habitos, valoracion corporal y seguimiento profesional.</p>
+          </article>
+          <article class="benefit reveal">
+            <span class="mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24">
+                <path d="M5 4h14v17H5zM8 9l2 2 4-4M8 15h8M8 18h6" />
+              </svg></span>
+            <h3>Accion, no solo datos</h3>
+            <p>Pasas de un resultado genetico a decisiones concretas de comida, suplementos y rutina.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resumen interactivo de las categorías incluidas en el reporte. -->
+    <section class="section genetic" id="genetica">
+      <div class="container genetic-grid">
+        <div class="genetic-copy">
+          <p class="section-kicker">Informacion genetica</p>
+          <h2>Que revela nutriADN Avanzada</h2>
+          <p>Analiza genes relacionados con nutricion, ejercicio, descanso, estilo de vida y salud cardiovascular para
+            entender la raiz de tus respuestas biologicas.</p>
+          <a class="button button-primary" href="#contacto">Quiero mi reporte</a>
+        </div>
+        <div class="report-panel" aria-label="Categorias del reporte genetico">
+          <button class="gene-tab active" type="button" data-tab="dieta">Dieta y peso</button>
+          <button class="gene-tab" type="button" data-tab="nutrientes">Nutrientes</button>
+          <button class="gene-tab" type="button" data-tab="metabolismo">Metabolismo</button>
+          <button class="gene-tab" type="button" data-tab="deporte">Deporte</button>
+          <div class="gene-content" data-tab-content>
+            <h3>Influencia de la dieta en tu peso corporal</h3>
+            <p>Respuesta a grasas saturadas, grasas monoinsaturadas, carbohidratos y tipo de dieta recomendada.</p>
+            <ul>
+              <li>Riesgo de recuperacion de peso</li>
+              <li>Facilidad para perder grasa</li>
+              <li>Preferencias y apetito</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials" id="resultados">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Prueba social</p>
+          <h2>Resultados que se sienten en el dia a dia</h2>
+        </div>
+        <div class="testimonial-grid">
+          <article class="testimonial reveal">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=220&q=80"
+              alt="Retrato de Ana Sofia, paciente de nutriADN" loading="lazy" decoding="async">
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <p>"Entendi por que no toleraba ciertos planes altos en grasa. En 8 semanas mejore energia y adherencia."
+            </p>
+            <strong>Ana Sofia, 34</strong>
+            <span>-5.8 kg y mejor digestion</span>
+          </article>
+          <article class="testimonial reveal">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=220&q=80"
+              alt="Retrato de Diego, paciente de nutriADN" loading="lazy" decoding="async">
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <p>"El reporte aterrizo mi entrenamiento. Cambie recuperacion, cafeina y suplementos con sentido."</p>
+            <strong>Diego, 29</strong>
+            <span>Mejor rendimiento deportivo</span>
+          </article>
+          <article class="testimonial reveal">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=220&q=80"
+              alt="Retrato de Mariana, paciente de nutriADN" loading="lazy" decoding="async">
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <p>"Deje de comprar suplementos al azar. Mi plan quedo conectado con mis analisis y mi rutina real."</p>
+            <strong>Mariana, 41</strong>
+            <span>Mas energia y menos antojos</span>
+          </article>
+          <article class="testimonial reveal">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=220&q=80"
+              alt="Retrato de Laura, paciente de nutriADN" loading="lazy" decoding="async">
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <p>"La consulta fue clave. No fue solo un PDF, sali con prioridades claras para 4 meses."</p>
+            <strong>Laura, 37</strong>
+            <span>Plan sostenible 120 dias</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pricing" id="planes">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Oferta</p>
+          <h2>Elige el nivel de acompanamiento que necesitas</h2>
+        </div>
+        <div class="pricing-grid">
+          <article class="price-card recommended reveal">
+            <p class="badge">Recomendado</p>
+            <h3>Programa Raices 120 dias</h3>
+            <p class="price">Desde $MXN</p>
+            <p class="price-note">Precio sujeto a promocion vigente</p>
+            <ul>
+              <li>Prueba nutriADN Avanzada</li>
+              <li>Consulta de interpretacion con nutriologa funcional</li>
+              <li>Plan alimenticio personalizado</li>
+              <li>Plan de entrenamiento</li>
+              <li>Consultas mensuales por 4 meses</li>
+              <li>Valoracion InBody en clinicas participantes</li>
+              <li>10% en suplementacion funcional</li>
+            </ul>
+            <a class="button button-primary full" href="#contacto">Elegir programa</a>
+          </article>
+          <article class="price-card reveal">
+            <p class="badge soft">Flexible</p>
+            <h3>Test individual</h3>
+            <p class="price">Desde $MXN</p>
+            <p class="price-note">Para quien busca claridad inicial</p>
+            <ul>
+              <li>Prueba nutriADN Avanzada</li>
+              <li>Reporte genetico en PDF</li>
+              <li>Consulta de interpretacion</li>
+              <li>Plan alimenticio con base en resultados</li>
+              <li>Valoracion InBody en clinicas participantes</li>
+              <li>Facilidades de pago hasta 3 MSI</li>
+            </ul>
+            <a class="button button-outline full" href="#contacto">Hacer mi prueba</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quiz-section">
+      <div class="container quiz-box">
+        <div>
+          <p class="section-kicker">Quiz</p>
+          <h2>Empieza por saber cual es tu raiz</h2>
+          <p>Responde un quiz corto para identificar si genetica y metabolismo es tu raiz principal o si conviene
+            iniciar por otra area.</p>
+        </div>
+        <a class="button button-secondary dark" href="https://nutriadn.com/pages/quiz-tu-test-ideal" target="_blank"
+          rel="noreferrer">Encontrar mi raiz</a>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="container faq-grid">
+        <div>
+          <p class="section-kicker">FAQ</p>
+          <h2>Preguntas frecuentes</h2>
+          <p>Respuestas claras para cerrar dudas antes de agendar.</p>
+        </div>
+        <div class="accordion" data-accordion>
+          <details open>
+            <summary>Mi informacion genetica es privada?</summary>
+            <p>Si. El enfoque debe ser consentimiento informado, manejo confidencial y uso exclusivo para interpretar
+              recomendaciones de salud y nutricion.</p>
+          </details>
+          <details>
+            <summary>Cuanto tarda la toma de muestra?</summary>
+            <p>La muestra de saliva toma cerca de 10 minutos. Puedes hacerla con kit en casa o en una clinica nutriADN.
+            </p>
+          </details>
+          <details>
+            <summary>Los resultados cambian con el tiempo?</summary>
+            <p>Tu ADN no cambia, por lo que el reporte genetico conserva valor. Lo que se ajusta es el plan segun
+              objetivos, habitos y evolucion.</p>
+          </details>
+          <details>
+            <summary>En que se diferencia de una dieta tradicional?</summary>
+            <p>No parte de promedios. Combina tus genes, objetivos y contexto clinico para personalizar alimentacion,
+              entrenamiento y suplementos.</p>
+          </details>
+          <details>
+            <summary>Que incluye el seguimiento?</summary>
+            <p>En el Programa Raices se contemplan ajustes durante 120 dias. En el Test Individual se incluye la prueba
+              y consulta de nutricion.</p>
+          </details>
+          <details>
+            <summary>Necesito dejar mis medicamentos o suplementos?</summary>
+            <p>No hagas cambios sin indicacion profesional. La consulta ayuda a ordenar decisiones y detectar
+              prioridades con base en tu caso.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cierre de conversión; el formulario funciona como demostración local. -->
+    <section class="section final-cta" id="contacto">
+      <div class="container conversion-grid">
+        <div>
+          <p class="section-kicker">Cupos limitados esta semana</p>
+          <h2>Comienza hoy con una orientacion inicial</h2>
+          <p>Dejanos tus datos y un asesor de salud te contactara para ayudarte a elegir entre Programa Raices, Test
+            Individual o Quiz.</p>
+          <div class="trust-row">
+            <span>Respuesta promedio: 2 min</span>
+            <span>Clinicas en Mexico</span>
+            <span>Especialistas en nutricion funcional</span>
+          </div>
+        </div>
+        <form class="lead-form" data-lead-form>
+          <label>
+            Nombre
+            <input type="text" name="nombre" autocomplete="name" required placeholder="Tu nombre">
+          </label>
+          <label>
+            WhatsApp
+            <input type="tel" name="whatsapp" autocomplete="tel" required placeholder="81 1234 5678">
+          </label>
+          <label>
+            Objetivo principal
+            <select name="objetivo" required>
+              <option value="">Selecciona una opcion</option>
+              <option>Perdida de peso</option>
+              <option>Energia y rendimiento</option>
+              <option>Digestivo / metabolismo</option>
+              <option>Prevencion y longevidad</option>
+            </select>
+          </label>
+          <button class="button button-primary full" type="submit">Reservar consulta</button>
+          <p class="form-note" data-form-note>Tambien puedes iniciar con el quiz si aun no sabes cual programa elegir.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a class="brand footer-brand" href="#top">
+            <img src="assets/img/logo.jpeg" alt="nutriADN">
+          </a>
+          <p>Nutrición científica basada en tu ADN, no dietas genéricas.</p>
+          <div class="footer-hours">
+            <strong>Horarios de atención</strong>
+            <span>Lunes a viernes · 9:00–18:00</span>
+            <span>Sábados · 9:00–14:00</span>
+          </div>
+          <div class="social-links" aria-label="Redes sociales de nutriADN">
+            <a href="https://www.instagram.com/nutriadn/" target="_blank" rel="noreferrer"
+              aria-label="Instagram de nutriADN">Instagram</a>
+            <a href="https://www.facebook.com/nutriadn/?locale=es_LA" target="_blank" rel="noreferrer"
+              aria-label="Facebook de nutriADN">Facebook</a>
+            <a href="https://mx.linkedin.com/company/nutriadn-pruebasdemedicinafuncional" target="_blank"
+              rel="noreferrer" aria-label="LinkedIn de nutriADN">LinkedIn</a>
+            <a href="https://www.youtube.com/@nutriADN" target="_blank" rel="noreferrer"
+              aria-label="YouTube de nutriADN">YouTube</a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h2>Explora</h2>
+          <a href="#proceso">Cómo funciona</a>
+          <a href="#beneficios">Beneficios</a>
+          <a href="#genetica">Tu reporte</a>
+          <a href="#planes">Planes</a>
+          <a href="#faq">Preguntas frecuentes</a>
+          <a href="https://nutriadn.com/pages/quiz-tu-test-ideal" target="_blank" rel="noreferrer">Encuentra tu raíz</a>
+        </div>
+
+        <div class="footer-links">
+          <h2>Tests y recursos</h2>
+          <a href="https://nutriadn.com/pages/raices" target="_blank" rel="noreferrer">Programa Raíces</a>
+          <a href="https://nutriadn.com/collections/tests" target="_blank" rel="noreferrer">Todos los programas y
+            tests</a>
+          <a href="https://nutriadn.com/collections/tests-genetica-y-estilo-de-vida" target="_blank"
+            rel="noreferrer">Genética y estilo de vida</a>
+          <a href="https://nutriadn.com/collections/tests-salud-digestiva" target="_blank" rel="noreferrer">Salud
+            digestiva y metabólica</a>
+          <a href="https://nutriadn.com/collections/tests-salud-hormonal" target="_blank" rel="noreferrer">Salud
+            hormonal</a>
+          <a href="https://nutriadn.com/collections/tests-longevidad" target="_blank" rel="noreferrer">Longevidad</a>
+        </div>
+
+        <div class="footer-links">
+          <h2>Legal</h2>
+          <a href="https://nutriadn.com/policies/terms-of-service" target="_blank" rel="noreferrer">Términos y
+            condiciones</a>
+          <a href="https://nutriadn.com/policies/privacy-policy" target="_blank" rel="noreferrer">Política de
+            privacidad</a>
+          <a href="https://nutriadn.com/policies/refund-policy" target="_blank" rel="noreferrer">Política de
+            reembolso</a>
+          <a href="https://nutriadn.com/pages/facturacion" target="_blank" rel="noreferrer">Facturación</a>
+          <a href="https://nutriadn.com/pages/contacto" target="_blank" rel="noreferrer">Contacto</a>
+        </div>
+      </div>
+
+      <div class="clinic-section">
+        <div class="clinic-heading">
+          <p class="section-kicker">Atención presencial</p>
+          <h2>Encuentra tu clínica nutriADN</h2>
+        </div>
+        <div class="clinic-grid">
+          <article class="clinic-card"><strong>San Jerónimo</strong><a href="tel:+528111070505">+52 81 1107 0505</a><a
+              href="https://maps.app.goo.gl/oXto3La6dddVo8fx7" target="_blank" rel="noreferrer">Ver ubicación ↗</a>
+          </article>
+          <article class="clinic-card"><strong>San Pedro</strong><a href="tel:+528111070505">+52 81 1107 0505</a><a
+              href="https://maps.app.goo.gl/J9qPmLxgiryW5A1i6" target="_blank" rel="noreferrer">Ver ubicación ↗</a>
+          </article>
+          <article class="clinic-card"><strong>Polanco</strong><a href="tel:+525516529896">+52 55 1652
+              9896</a><span>Emerson 316, piso 3</span></article>
+          <article class="clinic-card"><strong>Guadalajara</strong><a href="tel:+523317492345">+52 33 1749 2345</a><a
+              href="https://maps.app.goo.gl/Zbvke6w92FyruTjb6" target="_blank" rel="noreferrer">Ver ubicación ↗</a>
+          </article>
+          <article class="clinic-card"><strong>Tijuana</strong><a href="tel:+528111070505">+52 81 1107 0505</a><a
+              href="https://maps.app.goo.gl/vsPtEK2hX8CHrHtT9" target="_blank" rel="noreferrer">Ver ubicación ↗</a>
+          </article>
+          <article class="clinic-card"><strong>Puebla</strong><a href="tel:+528111070505">+52 81 1107 0505</a><a
+              href="https://maps.app.goo.gl/rRZu6DaxvKMmetkp9" target="_blank" rel="noreferrer">Ver ubicación ↗</a>
+          </article>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p><strong>Aviso de Publicidad:</strong> COFEPRIS 2319012002A00712 · COFEPRIS 2319012002A00713 · CP 13235111</p>
+        <p>© 2026 nutriADN. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
